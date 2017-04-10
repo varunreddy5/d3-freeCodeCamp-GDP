@@ -1,0 +1,42 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+#chart{
+  background-color: #FFF;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.32), 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+}
+
+.title{
+  color:steelblue;
+  font-size: 28px;
+}
+.notes{
+  color: steelblue;
+  font-size: 14px;
+}
+.axis path,
+.axis line{
+  fill:none;
+  stroke:#CCC;
+  shape-rendering:crispEdges;
+}
+.axis text{
+  text-anchor:middle;
+}
+.tooltip{
+  position: absolute;
+  background-color: rgb(253, 253, 253);
+  color:#000;
+  width:150px;
+  height:40px;
+  font-size: 14px;
+  border-radius:8px;
+  text-align: center;
+  padding:3px;
+  pointer-events: none;
+}
+.bar:hover{
+  fill:white;
+}
